@@ -12,8 +12,8 @@
   },
   "husky": {
     "hooks": {
-      "precommit": "yarn test",
-      "prepush": "yarn test"      
+      "pre-commit": "yarn test",
+      "pre-push": "yarn test"
     }
   },
   "dependencies": {

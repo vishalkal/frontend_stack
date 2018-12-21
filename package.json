@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src && flow"
+    "test": "eslint src && flow && jest --coverage"
   },
   "dependencies": {
     "color": "^3.1.0"
@@ -16,6 +16,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
     "eslint": "^5.10.0",
@@ -25,6 +26,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.0",
-    "flow-bin": "^0.89.0"
+    "flow-bin": "^0.89.0",
+    "jest": "^23.6.0"
   }
 }
